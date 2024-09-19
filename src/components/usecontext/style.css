@@ -1,0 +1,48 @@
+.underline-pink:hover{
+  text-decoration: underline;
+  text-decoration-color:rgb(222, 66, 92) ;
+  text-decoration-style:dotted ;
+  text-decoration-thickness: 3px;
+  
+
+}
+
+li:hover .pink{
+  color:rgb(244, 26, 186);
+}
+
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.shake-hand {
+  display: inline-block;
+  animation: shake 0.5s infinite;
+}
+
+
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.typing-text {
+  overflow: hidden;
+  white-space: nowrap; 
+  animation: typing 2.5s steps(20, end) infinite;
+  display: inline-block;
+  font-size: 3rem;
+  width: 0;
+}
+
+.white-shadow{
+
+  box-shadow: 1px 1px 10px 0.1px grey;
+}
